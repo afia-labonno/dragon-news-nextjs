@@ -11,7 +11,8 @@ const Navlink = ({href, children, className}) => {
     const isActive = href === pathname ;
 
     return (
-        <Link href={href} className={`${isActive ? "text-purple-700 font-bold border-b-2 border-b-cyan-300" : ""} ${className}`}>
+        <Link href={href} 
+        className={`${isActive ? "text-purple-700 font-bold border-b-2 border-b-cyan-300" : "hover:font-bold hover:text-cyan-600"} ${className}`}>
             {children}
         </Link>
     );
