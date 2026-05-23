@@ -27,7 +27,7 @@ const LoginPage = () => {
             toast.error(error.message);
         }
         if(res){
-            toast.success("Signin successful")
+            toast.success("Signin successful");
         }
     }
 

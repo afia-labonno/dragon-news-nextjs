@@ -12,7 +12,7 @@ const RegisterPage = () => {
 
     const [isShowPassword, setIsShowPassword] = useState(false)
 
-    const handleLogin = async (data) => {
+    const handleRegister = async (data) => {
         //    console.log(data);
         const { email, name, photo, password } = data;
 
@@ -40,7 +40,7 @@ const RegisterPage = () => {
 
                 <div className="divider"></div>
 
-                <form className='space-y-4' onSubmit={handleSubmit(handleLogin)}>
+                <form className='space-y-4' onSubmit={handleSubmit(handleRegister)}>
 
                     {/* name */}
                     <fieldset className="fieldset">
