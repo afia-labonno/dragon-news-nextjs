@@ -1,7 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 # Dragon News
 
 **Dragon News** is a modern news portal application built with Next.js, where users can browse the latest news articles by category, read detailed news content, and stay updated through an intuitive and responsive interface. The platform includes authentication, protected routes, dynamic news pages, and category-based filtering for a seamless news-reading experience.
