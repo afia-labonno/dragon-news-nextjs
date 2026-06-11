@@ -36,7 +36,7 @@ const RegisterPage = () => {
     return (
         <div className='container mx-auto min-h-[80vh] flex justify-center items-center bg-slate-100'>
             <div className='p-4 rounded-xl bg-white'>
-                <h2 className='font-bold text-3xl text-center py-4'>Login your account</h2>
+                <h2 className='font-bold text-3xl text-center py-4'>Sign Up your account</h2>
 
                 <div className="divider"></div>
 
